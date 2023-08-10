@@ -1,31 +1,40 @@
 public class Main {
     public static void main(String[] args) {
-        Toyota toyota = new Toyota(2005, "Blue", "Mechanics");
-        toyota.print();
-        BWM bwm = new BWM(2001, "White", "Engine: Diesel");
-        bwm.print();
-        Mercedes mercedes = new Mercedes(2006, "Brown", "Left Side");
-        mercedes.print();
+        Printable[] objects = new Printable[3];
 
-        createObjects("Mercedes");
-        createObjects("Toyota");
-        createObjects("Lexus");
+        objects[0] = createObject("2й", "Parent Value 1", 42);
+        objects[1] = createObject("3й", "Parent Value 2", 3.14);
+        objects[2] = createObject("4й", "Parent Value 3", true);
 
-    }
-
-    public static String createObjects(String className){
-        Toyota toyota = new Toyota(2010,"Yellow","Automate");
-        Mercedes mercedes  = new Mercedes(2005,"Black","Right Side");
-        BWM bwm = new BWM(2015,"Yellow","Diesele");
-        if (className == "Toyota"){
-            toyota.print();
-
-        } else if (className == "Mercedes") {
-            mercedes.print();
-        } else if (className == "Lexus") {
-            bwm.print();
+        for (Printable object : objects) {
+            object.print();
+            System.out.println();
         }
-        return className;
     }
 
+    public static Printable createObject(String className, String parentField, Object childField) {
+        Printable object = null;
+
+        switch (className) {
+            case "2й":
+                object = new Child2(parentField, (int) childField);
+                break;
+            case "3й":
+                object = new Child3(parentField, (double) childField);
+                break;
+            case "4й":
+                object = new Child4(parentField, (boolean) childField);
+                break;
+            default:
+                System.out.println("Unknown class name");
+        }
+
+        return object;
+    }
 }
+
+
+
+
+
+

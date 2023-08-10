@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c227eeb0-7500-4aa6-b2ef-4970e682a09e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repeatjava2monhom2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BWM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mercedes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Toyota.java" afterDir="false" />
-    </list>
+    <list default="true" id="c227eeb0-7500-4aa6-b2ef-4970e682a09e" name="Changes" comment="ААААА" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +47,19 @@
       <option name="presentableId" value="Default" />
       <updated>1691671388165</updated>
     </task>
+    <task id="LOCAL-00001" summary="ААААА">
+      <option name="closed" value="true" />
+      <created>1691676843300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676843300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ААААА" />
+    <option name="LAST_COMMIT_MESSAGE" value="ААААА" />
   </component>
 </project>
